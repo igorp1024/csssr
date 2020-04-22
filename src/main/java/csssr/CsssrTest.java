@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class CsssrTest {
 
     public static void main(String[] args) {
-        final String source = "   сапог   сарай  сапо    сбпо  спг       арбуз   биржаа    болт  бокс биржа    aaa a  ";
+        final String source = "   сапог   сарай  сапо    сбпо  спг       арбуз   биржаа    болт  бокс биржа    яяя я   ";
         System.out.println(new StreamSolution().solve(source));
         System.out.println(new LowLevelSolution().solve(source));
     }
